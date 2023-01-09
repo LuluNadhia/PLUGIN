@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Scope 
+        let banyak_Apel = 50;
+        if(true){
+            let banyak_Apel = 35  
+            console.log(banyak_Apel)
+        }
+        console.log(banyak_Apel)
+
+        //Reassigned and Redeclared 
+        var nama; // deklarasi nama 
+        console.log(nama);  // pemanggilannya
+
+        nama = "Nadhia" // menggunakana value string 
+        console.log(nama);  // pemanggilannya 
+
+        var nama = "Nadhia 26" //Reassigned and Redeclared 
+        console.log(nama);  // pemanggilannya 
+
+        //Hoisting
+        New = "New Time" // mengisi variable New 
+        console.log(New); // menampilkan variable New
+        var New // variable New akan diangkat keatas sebelum dieksekusi
+
+
+    </script>
+    
+</body>
+</html>
